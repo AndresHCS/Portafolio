@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+:root{
+	--color-negro:#000;
+	--color-texto:#212529;
+}
+body{
+	font-family:"American Typewriter", "American Typewriter Bold", "American Typewriter Condensed", "American Typewriter Condensed Bold", "American Typewriter Condensed Light", "American Typewriter Light", "American Typewriter Semibold", Arial;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: #eee;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+#hero{
+	padding-bottom: 30px;
+}
+
+#primera h1{
+	padding-top: 100px;
+	font-size: 30px;
+}
+
+#primera .texto{
+	text-align: right;
+}
+
+#segunda h1{
+	padding-top: 100px;
+}
+
+.texto{
+	background-color: #0F2A73;
+	color: #fff;
+}
+
+
+footer{
+	background-color:  #0F2A73;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	padding: 5px;
+	padding-top: 15px;
+}
+
+i{
+	font-size: 300px;
+}
+
+
+
+
